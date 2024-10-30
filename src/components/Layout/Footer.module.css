@@ -1,0 +1,4 @@
+.ftr{text-align: center; padding: 2em;}
+.special_thanks{font-size: .75rem; margin-top: 2em;}
+.special_thanks a{color: blue; }
+.special_thanks a:hover{text-decoration: underline;}

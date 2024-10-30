@@ -1,0 +1,24 @@
+.form {
+  padding: .5em;
+  padding-bottom: 1em;
+  display: flex;
+   justify-content: end;
+   gap: 1em;
+  align-items: center;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #A66E38;
+  border: 1px solid #A66E38;
+  color: white;
+  padding: 0.25rem 1rem;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+ opacity: .75;
+}

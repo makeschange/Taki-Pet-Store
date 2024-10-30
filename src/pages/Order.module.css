@@ -1,0 +1,38 @@
+.main{ min-height: calc(100vh - 88px - 10px); padding-inline: 1em; }
+.order_con{padding-top: 200px;}
+.order_info_con{max-width: 40rem; height: 38rem; font-size: .85rem;
+    overflow-y: auto;width: 100%; background: #fff; color: #1e1e1e; padding: 2em; border-radius: 12px; margin-inline: auto;}
+.order_info_hdr {text-align: center;  margin-bottom: 1.5em; }
+.order_info_hdr h1 { margin-bottom: .5em;}
+.order_info_hdr p {color: green; font-size: 1rem;}
+
+.cart_featured{max-width: 50px; border-radius: 5px;}
+.cart_info{display: flex; align-items: center; gap: .5em;} 
+.item_info{font-size: .7rem;}
+.item_info > h2 span{ margin-left: 2em; font-size: .5em; border-radius: 2px; font-weight: 700; color: #fff; background: #A66E38; padding: .2em .3em;}
+.item_list{background: #f4f2f2; padding: .75em; margin-bottom: .5em; }
+.item_list_title{margin-bottom: .5em;}
+.item_list > li:not(:last-child){margin-bottom: 1em;}
+.item{ padding: .25em; border-radius: 5px; border: 1px solid rgba(0,0,0,.1)}
+.price{font-weight: 800; color: #A66E38;}
+.order_summ{border: 1px solid rgba(0,0,0,.1); padding: 1em; border-radius: 5px;}
+.order_title{ font-size: 1.5rem; text-align: center; margin-bottom: 1em; color: #A66E38;}
+.item_total{flex: 1; text-align: right; font-size: .75rem;}
+.item_total span{font-size: 1rem; font-weight: 600;}
+.mb{margin-block: .5em;}
+.total_amount{margin-block:.5em 1.5em; }
+.item_ftr{font-size: .85em; }
+.item_ftr a{color: blue;}
+.item_ftr a:hover{text-decoration: underline;}
+.back_home_page{position: relative; max-width: fit-content; cursor: pointer; padding-left: 28px; font-size: .85rem; font-weight: 600; color: #A66E38; display: block; margin-top: 1em;}
+.back_home{transform: rotate(-180deg); position: absolute; font-size: 2rem; left: 0; top: -8px;}
+.back_home_page:hover{color: #654520;}
+
+@media only screen and (max-width:500px){
+    .item_total{text-align: right;}
+    .item_total span{display: block;}
+  }
+  @media only screen and (max-width:400px){
+    .cart_featured{max-width: 40px;}
+    .item_info > h2 span{margin-left: 1em;}
+  }

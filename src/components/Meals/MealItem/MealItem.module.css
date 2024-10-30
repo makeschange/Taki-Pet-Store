@@ -1,0 +1,45 @@
+.meal {
+  width: 30%;
+  min-height: 20rem;
+  background: #654520;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.featured_info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+}
+
+.meal h3 {
+  margin-block:.2em .5em;
+}
+
+.description {
+  font-style: italic;
+  font-size: .8rem;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width:700px){
+  .meal{   width: 45%;}
+}
+@media only screen and (max-width:600px){
+  .meal { border-top-left-radius: 10px; border-top-right-radius: 10px; }
+}
+@media only screen and (max-width:500px){
+.featured_info{display: block;}
+.featured_info > div{margin-bottom: .3em;}
+}
+
+
